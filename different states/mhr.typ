@@ -16,7 +16,7 @@ EPR对具有最大程度纠缠，这是量子完美传态中最基础的纠缠�
 
 === 抗局域噪声能力
 
-根据Lee等人（2002）[1]的论文，有如下原话：
+根据Lee等人（2002）@lee_2002 的论文，有如下原话：
 
 "However, when a reservoir is present, it is important to study inseparable quantum channels because some inseparable channel can be more robust against decoherence than EPR pairs. It is known that some particular state is robust against decoherence once the interaction with a reservoir is known. For example, a decoherence-free state, an eigenstate with zero eigenvalue of the interaction Hamiltonian, never becomes decoherent in the given reservoir."
 
@@ -52,7 +52,7 @@ N量子比特的GHZ态具有最大程度的n体纠缠。GHZ态的纠缠具有"�
 
 === 信息容量
 
-Rigolin (2005) [2]指出，对于两量子比特传态，GHZ态的 $E_T = 1/2 < 1$，只能传输特殊类型的两量子比特态（如$b|01⟩ + c|10⟩$），而无法传输任意的两量子比特态。Chen等人 (2006)[3] 从Schmidt系数的角度进行分析，发现GHZ态的Schmidt系数最大值超过$1/sqrt(2^N)$，不满足忠实传态的条件。Cheung和Zhang (2009) [4]证明，无论量子比特如何在Alice和Bob之间分配（每方至少拥有一个量子比特），N量子比特GHZ态的纠缠熵$E("AB")$始终等于1，这意味着它最多只能用于一个量子比特的传态。所以，GHZ态的结构决定了其在信息传输方面存在局限，信息容量受到限制。
+Rigolin (2005)@rigolin_2005 指出，对于两量子比特传态，GHZ态的 $E_T = 1/2 < 1$，只能传输特殊类型的两量子比特态（如$b|01⟩ + c|10⟩$），而无法传输任意的两量子比特态。Chen等人 (2006)@chen_2006 从Schmidt系数的角度进行分析，发现GHZ态的Schmidt系数最大值超过$1/sqrt(2^N)$，不满足忠实传态的条件。Cheung和Zhang (2009)@cheung_2009 证明，无论量子比特如何在Alice和Bob之间分配（每方至少拥有一个量子比特），N量子比特GHZ态的纠缠熵$E("AB")$始终等于1，这意味着它最多只能用于一个量子比特的传态。所以，GHZ态的结构决定了其在信息传输方面存在局限，信息容量受到限制。
 
 === 物理特征总结
 
@@ -68,17 +68,17 @@ N量子比特的W态定义：$ |W⟩_N = 1/sqrt(N) (|0⋯01⟩ + ⋯ + |10⋯0�
 
 === 纠缠纯度
 
-Wong和Christensen (2001)[5] 指出，$n > 2$时，W态不具备真正的n体纠缠。W态仅具有2体纠缠，其纠缠结构具有较高的冗余度。
+Wong和Christensen (2001)@wong_2001 指出，$n > 2$时，W态不具备真正的n体纠缠。W态仅具有2体纠缠，其纠缠结构具有较高的冗余度。
 
 === 抗局域噪声能力
 
-根据Wong和Christensen (2001)[5]，W态具有这样的性质："tracing out one of the particles leaves a partially entangled pair of qubits"，对一个粒子求迹，剩余粒子保持部分纠缠。与之形成鲜明对比的是，GHZ态求迹后，剩余粒子完全无纠缠。
+根据Wong和Christensen (2001)@wong_2001 ，W态具有这样的性质："tracing out one of the particles leaves a partially entangled pair of qubits"，对一个粒子求迹，剩余粒子保持部分纠缠。与之形成鲜明对比的是，GHZ态求迹后，剩余粒子完全无纠缠。
 
 说明W态具有更强的抗局域噪声能力，在退相干环境下具有更强的生存能力。
 
 === 信息容量
 
-W态在量子传态中的信息容量非常有限。Rigolin (2005)[2] 明确计算得出，对于四量子比特的广义W态，$E_T = 0$，这意味着W态完全无法用于确定性地用于确定性的量子传态。Chen等人 (2006)[3]进一步从Schmidt系数角度说明：W态的Schmidt系数并非全等，不满足最大纠缠态的条件，因此无法作为完美的量子传态信道。即使是单量子比特的传态，W态也只能概率性地完成。
+W态在量子传态中的信息容量非常有限。Rigolin (2005)@rigolin_2005 明确计算得出，对于四量子比特的广义W态，$E_T = 0$，这意味着W态完全无法用于确定性地用于确定性的量子传态。Chen等人 (2006)@chen_2006 进一步从Schmidt系数角度说明：W态的Schmidt系数并非全等，不满足最大纠缠态的条件，因此无法作为完美的量子传态信道。即使是单量子比特的传态，W态也只能概率性地完成。
 
 === 物理特征总结
 
@@ -90,7 +90,7 @@ W态在量子传态中的信息容量非常有限。Rigolin (2005)[2] 明确计�
 
 === 定义
 
-Lee等人 (2002) [1]引入了一类四量子比特的不可分离量子信道，其形式为：
+Lee等人 (2002)@lee_2002 引入了一类四量子比特的不可分离量子信道，其形式为：
 
 $ |φ_c⟩_"AB" = 1/(2 sqrt(2)) (|0000⟩ - |0011⟩ + |0101⟩ - |0110⟩ + |1001⟩ + |1010⟩ + |1100⟩ + |1111⟩)_(A_1 A_2 B_1 B_2) $。
 
@@ -129,13 +129,13 @@ $ |φ_c⟩_"AB" = 1/(2 sqrt(2)) (|0000⟩ - |0011⟩ + |0101⟩ - |0110⟩ + |10
 
 === 定义
 
-簇态由Raussendorf和Briege（2001）[6]提出，是定义在格点上的多体纠缠态。然后Zhao等人 (2012) [7]明确提及了六量子比特簇态作为其2n-qubit态的特殊情形。簇态是单向量子计算的通用资源，也是量子隐形传态和稠密编码的理想量子信道。
+簇态由Raussendorf和Briege（2001）@raussendorf_2001 提出，是定义在格点上的多体纠缠态。然后Zhao等人 (2012)@zhao_2012 明确提及了六量子比特簇态作为其2n-qubit态的特殊情形。簇态是单向量子计算的通用资源，也是量子隐形传态和稠密编码的理想量子信道。
 
 === 纠缠纯度
 
 簇态的纠缠特征由一组特征值方程刻画。对于簇C中的每一个格点a，满足：$σ_x^(a) ⊗_(a' ∈ "ngbh" (a)) σ_z^(a') |Φ⟩_C = ±|Φ⟩_C$。其中，$"ngbh" (a)$表示，在Ising模型下，与格点a相互作用的所有邻近格点。此方程表明，每个格点的$σ_x$方向本征态与其所有邻居的$σ_z$方向联合本征态之间存在严格关联，说明簇态具备全局多体纠缠的特征。
 
-Zhao等人 (2012) [7]指出，簇态的约化密度矩阵并非纯态，说明簇态不等于Bell态的直积，簇态具有最大纠缠特性。在SLOCC分类意义上，簇态属于真正多体纠缠态的一种独立类型。
+Zhao等人 (2012)@zhao_2012 指出，簇态的约化密度矩阵并非纯态，说明簇态不等于Bell态的直积，簇态具有最大纠缠特性。在SLOCC分类意义上，簇态属于真正多体纠缠态的一种独立类型。
 
 === 抗局域噪声能力
 
@@ -147,7 +147,7 @@ Zhao等人 (2012) [7]指出，簇态的约化密度矩阵并非纯态，说明�
 
 作为量子信道时，2N量子比特的簇态可以实现N量子比特的完美确定性隐形传态，需要2N比特的经典通信，这与N对Bell态的直积形式具有完全相同的信息容量。在稠密编码场景中，2N量子比特簇态可以传输2N比特经典信息。
 
-但是，Raussendorf和Briegel[6]严格证明：在单向量子计算中，任何量子逻辑电路都可以通过在足够大的簇态上执行一系列单量子比特测量来模拟实现。这说明簇态具有更强大的信息处理能力。
+但是，Raussendorf和Briegel@raussendorf_2001 严格证明：在单向量子计算中，任何量子逻辑电路都可以通过在足够大的簇态上执行一系列单量子比特测量来模拟实现。这说明簇态具有更强大的信息处理能力。
 
 === 物理特征总结
 
@@ -159,7 +159,7 @@ Zhao等人 (2012) [7]指出，簇态的约化密度矩阵并非纯态，说明�
 
 === 定义
 
-Zhao等人[7]提出的2n量子比特态，其一般形式为：
+Zhao等人@zhao_2012 提出的2n量子比特态，其一般形式为：
 
 $ |ξ⟩_"AB"^(n,n) = 1/sqrt(2^n) sum_(K=0)^(2^n-1) |vec(K)⟩_A^(n) ⊗ |vec(K')⟩_B^(n) $
 
@@ -175,7 +175,7 @@ $ |ξ⟩_"AB"^(n,n) = 1/sqrt(2^n) sum_(K=0)^(2^n-1) |vec(K)⟩_A^(n) ⊗ |vec(K'
 
 === 信息容量
 
-2n-qubit态的信息容量与N对Bell态直积完全相同，均支持n qubit传态和2n bit稠密编码。但是Zhao等人[7]指出，在2n-qubit态的稠密编码方案中，"虽然Alice可以局域且独立地对其n个量子比特进行编码，但Bob必须从全部2n个量子比特中一起读取信息——这与使用两对Bell态的原始稠密编码方案的直接推广不同，后者中Bob可以单独测量其量子比特"，这是2n-qubit态的信息特征：信息被包含在整个量子态中，局域的测量无法从中提取信息。
+2n-qubit态的信息容量与N对Bell态直积完全相同，均支持n qubit传态和2n bit稠密编码。但是Zhao等人@zhao_2012 指出，在2n-qubit态的稠密编码方案中，"虽然Alice可以局域且独立地对其n个量子比特进行编码，但Bob必须从全部2n个量子比特中一起读取信息——这与使用两对Bell态的原始稠密编码方案的直接推广不同，后者中Bob可以单独测量其量子比特"，这是2n-qubit态的信息特征：信息被包含在整个量子态中，局域的测量无法从中提取信息。
 
 === 物理特征总结
 
@@ -200,19 +200,3 @@ GHZ态的纠缠具有"全有或全无"的特性，在噪声环境下比较脆弱
 3. 研究的新方向。
 
 2012年之前的研究（至少这里提供的几篇论文），中心大多是对单一纠缠态的分析。但是2n-qubit态引入了连续参数，将其作为一族加以分析，不再是先前的单一纠缠态，得到了更丰富的研究空间。
-
-== 参考文献
-
-[1] J. Lee, H. Min, and S. D. Oh, "Multipartite entanglement for entanglement teleportation," Phys. Rev. A 66, 052318 (2002).
-
-[2] G. Rigolin, "Quantum teleportation of an arbitrary two qubit state and its relation to multipartite entanglement," Phys. Rev. A 71, 032303 (2005) [arXiv:quant-ph/0407219v3, 8 Mar 2005].
-
-[3] P.-X. Chen, S.-Y. Zhu, and G.-C. Guo, "General form of genuine multipartite entanglement quantum channels for teleportation," Phys. Rev. A 74, 032324 (2006).
-
-[4] C.-Y. Cheung and Z.-J. Zhang, "Criterion for faithful teleportation with an arbitrary multiparticle channel," Phys. Rev. A 80, 022327 (2009).
-
-[5] A. Wong and N. Christensen, "A potential multipartite entanglement measure," Phys. Rev. A 63, 044301 (2001) [arXiv:quant-ph/0010052v1, 13 Oct 2000].
-
-[6] H. J. Briegel and R. Raussendorf, "Persistent entanglement in arrays of interacting particles," Phys. Rev. Lett. 86, 910 (2001).
-
-[7] M.-J. Zhao, Z.-G. Li, X. Li-Jost, and S.-M. Fei, "Multiqubit quantum teleportation," J. Phys. A: Math. Theor. 45, 405303 (2012).
