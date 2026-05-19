@@ -1,5 +1,5 @@
 #set page(paper: "a4", numbering: "1")
-#set text(font: ("Canela Text", "Songti SC"))
+#set text(font: ("Canela Text Regular Trial", "SimSun"))
 #set heading(numbering: "1.1")
 
 //#let title = "从等概率到完美隐形传态"
