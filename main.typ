@@ -72,6 +72,6 @@
 #v(1em) // 适当留出一点段落间距
 *代码开源声明*
 
-本文第 3 节中用于系统演化计算、矩阵保真度验证及交互式 GUI 演示的 Python 源代码均已开源。项目仓库源码托管于 GitHub：#link("https://github.com/zzzz200508-hash/Qic-Pre-2.git")[本文源码以及仿真计算程序源码]。
+本文第 3 节中用于系统演化计算、矩阵保真度验证及交互式 GUI 演示的 Python 源代码均已开源。项目仓库源码托管于 GitHub：#link("https://github.com/zzzz200508-hash/Qic-Pre-2.git")[https://github.com/zzzz200508-hash/Qic-Pre-2.git]。
 
 #bibliography("ref/refs.bib", style: "ieee")
