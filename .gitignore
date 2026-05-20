@@ -5,3 +5,6 @@ code/
 !code/Verification.py
 !code/dist/Verification.exe
 !main.pdf
+!code/pircture.py
+.zed/debug.json
+.zed/tasks.json
