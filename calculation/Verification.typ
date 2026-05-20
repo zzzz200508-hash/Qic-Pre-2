@@ -22,6 +22,20 @@
   - *图象响应*：拖动滑块时，图谱中 Bob 的“坍缩态”概率分布会发生剧烈的错位与相移翻转（直观体现测量导致的局域扰动）。同时，热力图将实时更新 Bob 对应的 $8 times 8$ 幺正恢复矩阵 $U_"Bob"$ 的具体元素，在施加该矩阵后，最终保证“恢复态”与原态完美重合。
 
 + *目标态波函数调制滑块：`State` $theta'_1$ `...` $theta'_4$*
-  - *取值范围*：连续实数 $0 \le theta'_i \le pi/2$。
+  - *取值范围*：连续实数 $theta'_i in [0 , pi/2]$。
   - *物理功能*：连续改变待传输未知量子态 $ket(phi, sub: A')$ 本身的概率幅分布与波函数结构。
   - *图象响应*：由于隐形传态通道对任意态皆具备普适性，拖动此类滑块时，“原始态”的图谱将呈现连续平滑的改变，而“恢复态”将毫无延迟地完美追踪这一变化。此交互过程在数值层面强有力地证实了：无论待传态的结构如何畸变，或者信道参数如何倾斜，协议的系统保真度始终死锁于 $1.0000$。
+
+=== 运行图片示例
+#figure(
+  image("../pirctures/3-Qubit_Teleportation_Simulator_1.png", width: 80%),
+  caption: [示例1],
+) <fig-arch>
+#figure(
+  image("../pirctures/3-Qubit_Teleportation_Simulator_2.png", width: 80%),
+  caption: [示例2],
+) <fig-arch>
+#figure(
+  image("../pirctures/3-Qubit_Teleportation_Simulator_3.png", width: 80%),
+  caption: [示例3],
+) <fig-arch>

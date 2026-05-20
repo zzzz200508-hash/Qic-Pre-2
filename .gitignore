@@ -1,5 +1,7 @@
 .DS_Store
 .vscode/
 *.pdf
-
+code/
+!code/Verification.py
+!code/dist.Verification.exe
 !main.pdf
