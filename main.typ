@@ -26,18 +26,26 @@
 
 *关键词*：最大纠缠态；量子隐形传态；冯·诺依曼熵；SLOCC；施密特分解；过滤算符
 
-= 论文复现与补充
-// 论文复现部分
-#include "recurrence/cqc.typ"
+= 理论推导与数学核心 (Theoretical Derivation)
+== 3 Qubit基的构造
+#include "recurrence/Construct.typ"
+
+== 从 3 Qubit到 n Qubit的推广
+#include "recurrence/Promotion.typ"
+
+== 纠缠性质与等价性证明
+#include "recurrence/Entanglement&Equivalence.typ"
 
 #pagebreak()
-// 论文补充
-== 论文未提及证明补充
 
-#include "supplement/cqc.typ"
-= 一些计算（不知道叫啥）
-#include "calculation/yzh.typ"
-= 一些不同的态辨析（后面再改）
+= 算法验证与仿真构造 (Algorithm & Simulation)
+== 量子门线路的逆向工程
+#include "calculation/Reverse Eengineering.typ"
+== 算例支持与代码验证
+#include "calculation/Verification.typ"
+== 密集编码的协议实现
+#include "calculation/Dense Coding.typ"
+= 综述对比 (Synthesis)
 #include "different states/mhr.typ"
 
 = 结论
