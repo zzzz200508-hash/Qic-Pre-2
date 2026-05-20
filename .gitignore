@@ -6,5 +6,6 @@ code/
 !code/dist/Verification.exe
 !main.pdf
 !code/pircture.py
+!code/matrix.py
 .zed/debug.json
 .zed/tasks.json

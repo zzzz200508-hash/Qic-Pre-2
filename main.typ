@@ -58,7 +58,7 @@
 
 #pagebreak()
 
-= 综述对比 (Synthesis)
+= EPR对、GHZ态、W态、四量子比特纠缠态、簇态及2n-qubit态的对比研究
 #include "different states/mhr.typ"
 
 = 结论

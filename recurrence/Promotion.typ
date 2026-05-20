@@ -1,8 +1,6 @@
 #import "/utils/_lib.typ": *
 #show ref: theoretic.show-ref
 
-== 3qubit到nqubit的推广
-
 === 递归构造与广义形式
 
 #def("n量子比特广义完备正交基的递归构造")[
